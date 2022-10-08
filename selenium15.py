@@ -10,7 +10,7 @@ import time
 # Multiple Windows
 
 
-class Demo_Mult_Window:
+class DemoMultWindow:
 
     def demo_mult_window(self):
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
@@ -52,5 +52,5 @@ class Demo_Mult_Window:
 
         # driver.switch_to.window(parent_handle)
 
-mult_window = Demo_Mult_Window()
+mult_window = DemoMultWindow()
 mult_window.demo_mult_window()
