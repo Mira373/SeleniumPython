@@ -10,9 +10,9 @@ import time
 # Multiple Windows
 
 
-class Demo_Javascript:
+class Demo_Mult_Window:
 
-    def javascript_demo(self):
+    def demo_mult_window(self):
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
         driver.get('https://meama.business/')
 
@@ -52,5 +52,5 @@ class Demo_Javascript:
 
         # driver.switch_to.window(parent_handle)
 
-demojs = Demo_Javascript()
-demojs.javascript_demo()
+mult_window = Demo_Mult_Window()
+mult_window.demo_mult_window()
